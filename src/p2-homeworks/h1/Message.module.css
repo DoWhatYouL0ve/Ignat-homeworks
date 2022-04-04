@@ -1,3 +1,84 @@
-.message {
+.messageContainer {
+    width: 400px;
+    background-color: greenyellow;
+    margin: 20px;
+    display: flex;
+    min-height: 90px;
+    justify-content: space-between;
+}
 
+.messageAva {
+    margin: 0 auto;
+    width: 20%;
+    position: relative;
+    margin-bottom: 8px;
+}
+
+.messageAva img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 13px;
+}
+
+.messageTextContainer {
+    background-color: black;
+    width: 80%;
+    margin: 5px 8px 8px 0px;
+    border-radius: 10px 10px 10px 0px;
+    padding: 15px;
+    display: flex;
+    position: relative;
+}
+
+.messageBox {
+    width: 80%;
+}
+
+.message {
+    color: aquamarine;
+}
+
+.name {
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.time {
+    color: orange;
+    position: absolute;
+    bottom: -10px;
+    right: 0px;
+}
+
+.timeContainer {
+    width: 20%;
+    position: relative;
+}
+
+.cornerBox {
+    width: 15px;
+    height: 15px;
+    border: 1px solid red;
+    position: absolute;
+    left: -15px;
+    bottom: 1px;
+}
+
+.cornerRound {
+    background-color: greenyellow;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: -6px;
+    top: -5px;
+    border-radius: 15px 0px;
+}
+
+.corner {
+    width: 15px;
+    height: 15px;
+    background-color: black;
 }
