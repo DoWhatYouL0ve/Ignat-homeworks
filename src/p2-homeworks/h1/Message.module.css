@@ -39,6 +39,7 @@
 
 .message {
     color: aquamarine;
+    word-wrap: break-word;
 }
 
 .name {
