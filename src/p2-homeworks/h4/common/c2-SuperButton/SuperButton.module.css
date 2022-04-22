@@ -2,6 +2,17 @@
 
 }
 
+.commonStyles {
+    margin: 10px;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.commonStyles:hover {
+    transform: scale(1.2);
+    font-weight: bold;
+}
+
 .red {
     background: red;
 }

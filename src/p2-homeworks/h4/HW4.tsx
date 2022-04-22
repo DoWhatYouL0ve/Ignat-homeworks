@@ -13,6 +13,7 @@ function HW4() {
             alert('введите текст...')
         } else {
             alert(text) // если нет ошибки показать текст
+            setText('')
         }
     }
 
@@ -58,7 +59,7 @@ function HW4() {
 
                 <SuperCheckbox
                     checked={checked}
-                    onChangeChecked={setChecked}
+                    onChangeChecked={()=>setChecked(!checked)}
                 >
                     some text {/*// этот текст попадёт в children*/}
                 </SuperCheckbox>
