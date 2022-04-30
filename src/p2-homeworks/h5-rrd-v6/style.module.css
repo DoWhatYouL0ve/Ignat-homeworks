@@ -1,0 +1,44 @@
+.navLinks {
+    margin: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: grey;
+}
+
+.navLinks:hover {
+    color: orangered;
+}
+
+.navContainer {
+    position: relative;
+    height: 40px;
+    width: 300px;
+}
+
+.clicker {
+    width: 30px;
+    height: 30px;
+    background-color: aqua;
+    position: absolute;
+    top: 0px;
+    right: -25px;
+    text-align: center;
+}
+
+.clicker:hover {
+    cursor: pointer;
+}
+
+.hidden {
+    height: 30px;
+    position: absolute;
+    left: -277px;
+    top: 0px;
+    transition:all 1.2s ease;
+    background-color: bisque;
+}
+
+.hidden:hover {
+    left: 0;
+}
