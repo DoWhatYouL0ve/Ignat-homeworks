@@ -1,0 +1,7 @@
+.myClass {
+    background-image: url("pen.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    padding-left: 25px;
+}

@@ -32,9 +32,10 @@
 
 .hidden {
     height: 30px;
+    padding: 5px 0px;
     position: absolute;
     left: -277px;
-    top: 0px;
+    top: 10px;
     transition:all 1.2s ease;
     background-color: bisque;
 }
