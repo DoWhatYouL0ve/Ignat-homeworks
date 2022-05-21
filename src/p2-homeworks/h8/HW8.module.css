@@ -1,0 +1,6 @@
+.tableContainer {
+    width: 360px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+}
