@@ -1,9 +1,6 @@
 import {UserType} from "../HW8";
 
-export type ActionType = {
-    type: string
-    payload: string | number
-}
+export type ActionType = { type: 'sort', payload: 'up' | 'down'} | {type: 'check', payload: number}
 
 export const homeWorkReducer = (state: Array<UserType>, action: ActionType): Array<UserType> => { // need to fix any
     switch (action.type) {
