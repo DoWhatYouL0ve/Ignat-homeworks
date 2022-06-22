@@ -15,9 +15,9 @@ const SuperDoubleRange: React.FC<SuperDoubleRangePropsType> = (
     // сделать самому, можно подключать библиотеки
 
     return (
-        <>
-            DoubleRange
-        </>
+        <div>
+
+        </div>
     )
 }
 
